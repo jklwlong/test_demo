@@ -17,6 +17,6 @@ public class TestController {
     @RequestMapping("/")
     public String Test(){
         logger.info("-------------------------------------test controller");
-        return "test_demo111";
+        return "test_demo_log";
     }
 }
